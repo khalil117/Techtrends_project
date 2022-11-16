@@ -86,7 +86,7 @@ Make sure your oracle VM Box is open
 touch namespace.yaml
 touch deploy.yaml
 vim deploy.yaml
-touch service.yaml
+vim 
 vim service.yaml
 ```
 

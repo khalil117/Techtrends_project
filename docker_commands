@@ -93,11 +93,11 @@ INFO:werkzeug:172.17.0.1 - - [12/Nov/2022 10:22:26] "GET /static/css/main.css HT
 
 ## DOcker command to tag the image 
 
-docker tag techtrends lksa/techtrends:v1.0.0 
+docker tag techtrends khaliltouil/techtrends:v1.0.0 
 
 ## Docker command to push the images to dockerhub 
 
-docker push lksa/techtrends:v1.0.0
+docker push khaliltouil/techtrends:v1.0.0
 
 docker tag local-image:tagname new-repo:tagname
 docker push new-repo:tagname

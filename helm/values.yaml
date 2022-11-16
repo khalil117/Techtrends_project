@@ -6,7 +6,7 @@ service:
   protocol: TCP
   type: ClusterIP
 image:
-  repository: lksa/techtrends 
+  repository: khaliltouil/techtrends 
   tag: latest
   pullPolicy: IfNotPresent
 

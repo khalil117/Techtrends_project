@@ -81,6 +81,15 @@ def about():
     app.logger.debug(logger_message("About page retrieved."))
     return render_template('about.html')
 
+# # Define healthz path
+# @app.route('/healthz')
+# def healthz():
+#     response = app.response_class(
+#         response=json.dumps({"result":"OK - healthy"}),
+#         status=200,
+#         mimetype='application/json'
+#     )
+
 # Define the post creation functionality 
 @app.route('/create', methods=('GET', 'POST'))
 def create():
