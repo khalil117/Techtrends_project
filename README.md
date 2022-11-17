@@ -25,7 +25,7 @@ docker logs <container ID>
 
 ## TechTrends logs
 
-Put the output from the logs 
+![docker-logs](screenshots/docker-logs.PNG "docker-logs") 
 
 ## DOcker command to tag the image 
 
